@@ -32,7 +32,7 @@ void unitTestSuite()
 	results.push_back(unitTest_listIsEmpty_int_empty(true));
 	results.push_back(unitTest_listIsEmpty_int_notEmpty(false));
 	results.push_back(unitTest_valueAtIndex_int_match(3));
-	results.push_back(unitTest_insertNodeAtTail_int_match(0));//5));
+	results.push_back(unitTest_insertNodeAtTail_int_match(5));
 	results.push_back(unitTest_deleteNodeAtTail_int_match(999));
 	results.push_back(unitTest_copyConstructorAssignmentOperator_int_match());
 
